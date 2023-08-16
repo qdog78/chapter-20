@@ -11,6 +11,17 @@
   
 }
 
+.FlexCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  background-color: #0f9600;
+  border: 1px solid #341717;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
 
 
 h1 { 

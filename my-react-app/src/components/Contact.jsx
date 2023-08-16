@@ -1,7 +1,13 @@
 function Contact() {
-
-
-    return  <div>Hello3</div>
-    }
+  return (
+    <div>
+      
+      <p className = "FlexCard">Email: Qdog78@yahoo.com</p>
+      <p className = "FlexCard">Github: Github.com/qdog78 </p>
+      <p className = "FlexCard"> LinkedIn: Qdog78@yahoo.com</p>
     
-    export default Contact
+    </div>
+  );
+}
+
+export default Contact;
