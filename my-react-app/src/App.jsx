@@ -4,6 +4,7 @@ import Navbar from './components/navbar'
 import Bio from './components/Bio'
 import History from './components/History'
 import Contact from './components/Contact'
+import Portfolio from './components/Portfolio'
 
 function App() {
   const [display, setdisplay] = useState("")
@@ -18,7 +19,7 @@ console.log (display)
          <Navbar setdisplay = {setdisplay} ></Navbar>
       </div>
     
-      {display === "Bio" ? <Bio/> : display === "History" ? <History/> : display === "Contact" ? <Contact/> : <div> 
+      {display === "Bio" ? <Bio/> : display === "History" ? <History/> : display === "Contact" ? <Contact/> : display === "Portfolio" ? <Portfolio/> : <div> 
         
         
         </div>

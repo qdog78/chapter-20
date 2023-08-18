@@ -12,6 +12,7 @@ function Navbar({setdisplay}) {
       <button onClick={()=> setdisplay ("Bio")}>Bio</button>
       <button onClick={()=> setdisplay ("Contact")}>Contact</button>
       <button onClick={()=> setdisplay ("History")}>History</button>
+      <button onClick={()=> setdisplay ("Portfolio")}>Portfolio</button>
     </div>
   );
 }
