@@ -10,6 +10,25 @@
   
 }
 
+
+
+.FlexCard1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 600px;
+  background-color: rgba(255, 0, 0, 0.784);
+  border: 1px solid #341717;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+
+
 .FlexCard {
   display: flex;
   justify-content: center;
@@ -22,6 +41,10 @@
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.Font{
+  display: flex;
+
+}
 
 h1 { 
   position: relative;
@@ -33,14 +56,18 @@ color: green;
 
 }
 
-img {
-width: 23rem;
-margin: 1rem;
+img {display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+height: 8rem;
+width: 14em;
+margin: 2rem;
+
 }
 
 .portfolio {
   display: flex;
   flex-wrap: wrap;
   width: 900px;
-  margin: 0 auto;
+  margin: 2rem;
 }

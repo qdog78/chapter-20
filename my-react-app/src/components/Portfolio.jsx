@@ -4,35 +4,36 @@
 function Portfolio() {
     return (
       <div className="portfolio">
-        <div> Hello
-        <img
-  src="/project1.png"
-  alt="project1 image"
+        <div className="Font" > 
+       Github: https://github.com/qdog78/challenge-2 Deployment: https://qdog78.github.io/challenge-2/ <img
+  src="/project2.png"
+  alt="Image of Project"
+  
 /></div>
-<div> Hello
+<div className="Font"> https://github.com/qdog78/Challenge-3 
         <img
-  src="/project1.png"
-  alt="project1 image"
+  src="/PWG1.png"
+  alt="Image of Project"
 /></div>
-<div> Hello
+<div className="Font"> Repository: https://github.com/qdog78/Challenge-4 Deployment: https://qdog78.github.io/Challenge-4/
         <img
-  src="/project1.png"
-  alt="project1 image"
+  src="/Q1.png"
+  alt="Image of Project"
 /></div>
-<div> Hello
+<div className="Font"> https://github.com/qdog78/challenge-5
         <img
-  src="/project1.png"
-  alt="project1 image"
+  src="/pg5.gif"
+  alt="Image of Project"
 /></div>
-<div> Hello
+<div className="Font"> https://github.com/qdog78/Challenge-4
         <img
-  src="/project1.png"
-  alt="project1 image"
-/></div>
-<div> Hello
+  src="/pg6.png"
+  alt="Image of Project"
+/></div >
+<div className="Font"> https://github.com/qdog78/Challenge-1
         <img
-  src="/project1.png"
-  alt="project1 image"
+  src="/pg1.png"
+  alt="Image of Project"
 /></div>
       </div>
     );
