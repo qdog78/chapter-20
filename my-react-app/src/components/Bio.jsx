@@ -8,7 +8,7 @@ function Bio() {
         University. Finished with my degree in law enforcement, after getting a
         career in law enforcement and handling all of the stresses of being an
         LEO I decided to become a software developer. I hope you enjoy my
-        portfolio assignment!
+        portfolio assignment!!!
       </div>
       <div>
 
